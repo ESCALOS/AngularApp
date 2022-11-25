@@ -9,6 +9,8 @@ import { Product } from './product.model';
 export class AppComponent {
   title = "App";
 
+  widthImg = 10;
+
   person = {
     name : 'Carlos',
     age : 50
@@ -20,25 +22,35 @@ export class AppComponent {
 
   products: Product[] = [
     {
-      name: 'EL mejor juguete',
+      name: 'Tsukasa',
       price: 565,
       image: './assets/images/tsukasa.jpg',
       category: 'all'
     },
     {
-      name: 'Colleción de albumnes',
+      name: 'Imouto',
       price: 34,
       image: './assets/images/imouto.jpg',
     },
     {
-      name: 'Mis libros',
+      name: 'Rem && Ram',
       price: 23,
       image: './assets/images/rem_ram.jpg'
     },
     {
-      name: 'Casa para perro',
+      name: 'Mirika',
       price: 34,
       image: './assets/images/Mirika.png'
+    },
+    {
+      name: 'Megumi',
+      price: 67,
+      image: './assets/images/megumi.jpg'
+    },
+    {
+      name: 'Yami-chan',
+      price: 67,
+      image: './assets/images/yami.jpg'
     },
   ]
 
