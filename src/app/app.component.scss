@@ -19,6 +19,17 @@
   }
 }
 
+.line-error{
+  height: 0;
+  border-bottom: 1px solid;
+  &.invalid {
+    border-color: red;
+  }
+  &.valid{
+    border-color: green;
+  }
+}
+
 .message-error {
   background: red;
   color: white;
