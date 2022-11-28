@@ -8,13 +8,4 @@ import { Product } from './models/product.model'
 })
 export class AppComponent {
 
-  imgParent = "./assets/images/megumi.jpg";
-  showImg = true;
-
-  onLoaded(img: string) {
-    console.log("loaded padre ",img)
-  }
-  toogleImg() {
-    this.showImg = !this.showImg;
-  }
 }
