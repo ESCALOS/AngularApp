@@ -13,7 +13,7 @@ export class ProductsComponent {
   total: number = 0;
   products: Product[] = [];
   today = new Date();
-  data = new Date(2021,1,21);
+  date = new Date(2021,1,21);
 
   constructor(
     private storeService: StoreService,

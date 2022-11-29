@@ -5,10 +5,10 @@
   Total: ${{ total }}
 </p>
 <p>
-  Hoy: {{ today | date: 'short' }}
+  Hoy: {{ today | timeAgo }}
 </p>
 <p>
-  Otra fecha: {{ today | date }}
+  Otra fecha: {{ date | timeAgo }}
 </p>
 <div class="products--grid">
   <app-product
